@@ -1,0 +1,22 @@
+{
+  "name": "discordbotjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "open": "node build/main.js",
+    "start": "npm run build && npm run open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/node": "^14.14.11",
+    "typescript": "^4.1.2"
+  }
+}
